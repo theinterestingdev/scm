@@ -1,0 +1,52 @@
+GIT COMMANDS :
+
+git init
+
+touch textfile.txt
+
+notepad textfile.txt
+
+git add .
+
+git status
+
+===========================================================================
+
+Creating a global config [Containing authors USERNAME & EMAIL] :
+
+git config --global user.name "[Username]"
+git config --global user.email [Specified Email]
+
+===========================================================================
+
+Git Commit :
+
+git commit -m "First Repo"
+
+To update the specified branch:
+
+git push -u origin [branch name]
+===========================================================================
+Create Git branch using checkout
+The easiest way to create a Git branch is to use the “git checkout” command with the “-b” option for a new branch.
+Next, you just have to specify the name for the branch you want to create.
+
+$ git checkout -b <branch-name>
+
+=====================================================================================================================
+Create Git Branch without switching
+In order to create a new Git branch, without switching to this new branch, you have to use the “git branch” command and specify the name of the Git branch to be created.
+
+$ git branch <branch_name>
+You can later on switch to your new Git branch by using the “git checkout” function.
+
+$ git checkout <branch_name>
+
+===========================================================================
+
+To update the specified branch:
+
+git push -u origin [branch name]
+
+===========================================================================
+
